@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 27px;
+    color: crimson;
+}
+
+p {
+    text-align: justify;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding: 5%;
+}
+
+.half-width img {
+    width: 80%;
+    height: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(0, 195, 255), aquamarine);
+    font-weight: 600;
+    color: darkblue;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
