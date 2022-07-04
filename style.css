@@ -17,6 +17,8 @@ p {
 
 .flexible-container {
     display: flex;
+    margin-bottom: 5%;
+
 }
 
 .half-width {
@@ -50,4 +52,40 @@ p {
     padding-right: 50px;
 }
 
-.fl
+.color {
+    color: darkorange;
+}
+
+.experience-item {
+    width: 40%;
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px aqua;
+
+
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 70px;
+
+}
+
+#full-stack {
+    border-top: 7px solid brown;
+    border-bottom: 7px solid brown;
+
+}
+
+#baby-web {
+    border-top: 7px solid blueviolet;
+    border-bottom: 7px solid blueviolet;
+}
+
+footer p {
+    text-align: center;
+}
